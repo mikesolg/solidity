@@ -125,7 +125,8 @@ contract Voting is Ownable {
         }
         
         // update public member - value stays 0 in case of equality
-        winningProposalId=winningIndex;
+        if (winningIndex!=0)
+            winningProposalId=winningIndex;
 
         currentStatus=WorkflowStatus.VotesTallied;
         emit WorkflowStatusChange(WorkflowStatus.VotingSessionEnded, WorkflowStatus.VotesTallied);
