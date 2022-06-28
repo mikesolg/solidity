@@ -2,7 +2,7 @@
 
 ## Contenu des tests
 
-Les 22 tests JS proposés couvrent l'ensemble des fonctions du contrat et en particulier :
+Les 23 tests JS proposés couvrent l'ensemble des fonctions du contrat et en particulier :
  - le workflow
  - les cas d'erreur fonctionnels (vote multiple, vote pour une proposition inexistante, ...)
  - la logique de calcul du vainqueur (ici 3 votes pour la proposition 1)
@@ -24,8 +24,8 @@ ________________________________________________________________________________
 
 File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 -------------|----------|----------|----------|----------|----------------|
- contracts/  |      100 |       75 |      100 |      100 |                |
-  Voting.sol |      100 |       75 |      100 |      100 |                |
+ contracts/  |      100 |    78.57 |      100 |      100 |                |
+  Voting.sol |      100 |    78.57 |      100 |      100 |                |
 -------------|----------|----------|----------|----------|----------------|
 All files    |      100 |       75 |      100 |      100 |                |
 -------------|----------|----------|----------|----------|----------------|
