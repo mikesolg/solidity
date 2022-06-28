@@ -10,3 +10,11 @@ On vérifie aussi que seuls les utilisateurs autorisés peuvent appeler les fonc
 
 la fonction `setupForStatus` permet d'établir un état minimum pour chaque fonction testée en fonction de l'avancement du workflow, tout en factorisant le code. 
 
+___________________________________________________________________________________________________________________________________________
+# Utilisation
+
+1. `npm install`
+2. `truffle test`
+
+
+
