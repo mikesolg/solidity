@@ -2,6 +2,10 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
     "@openzeppelin/test-helpers": "^0.5.15",
-    "eth-gas-reporter": "^0.2.25"
+    "eth-gas-reporter": "^0.2.25",
+    "truffle": "^5.4.29"
+  },
+  "devDependencies": {
+    "solidity-coverage": "^0.7.21"
   }
 }
