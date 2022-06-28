@@ -115,6 +115,15 @@ contract("Voting", (accounts) => {
       expectEvent(event, "ProposalRegistered", { proposalId: new BN(1) });
     });
 
+    it("refuse a null proposal", async () => {
+      await expectRevert(
+        votingInstance.addProposal("", {
+          from: VOTER1,
+        }),
+        "Vous ne pouvez pas ne rien proposer"
+      );
+    });
+
     it("only owner can stop proposal registrations", async () => {
       await expectRevert(
         votingInstance.endProposalsRegistering({ from: VOTER1 }),
